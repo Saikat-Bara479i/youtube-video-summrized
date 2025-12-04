@@ -3,7 +3,7 @@ chrome.runtime.onMessage.addListener(async (msg, sender) => {
   if (msg.action === "summarize" && msg.prompt) {
     try {
       const res = await fetch(
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyC5lH1mZJ36fSKBc3mlJPWGYJEkCGUduKo",
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=place your gemini api key here",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -64,3 +64,4 @@ chrome.runtime.onMessage.addListener(async (msg, sender) => {
     }
   }
 });
+
