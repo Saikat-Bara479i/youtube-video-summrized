@@ -1,9 +1,8 @@
 # youtube-video-summrized
-to use it save the all file into a seperate folder
-palce your free gemini api key in background.js
-
-go to the chrome extension
-On the devloper mode
-copy and paste the file 
-RELOAD THE YOUTUBE
+1.to use it save the all file into a seperate folder
+2.palce your free gemini api key in background.js
+3.go to the chrome extension
+4.On the devloper mode
+5.copy and paste the file 
+6.RELOAD THE YOUTUBE
 
